@@ -9,22 +9,8 @@
         "isDirectory": true,
         "children": [
           "a6802762-5bdc-442e-b375-875918909987",
-          "58e372ed-5524-4695-a2e3-11f3d3a665b5",
           "e197ee0d-e5e0-483b-ac58-cf1bc823043a",
-          "1714dee7-6803-43fc-bd4f-a4bd92509a37",
-          "0f6b4cc7-04b8-4fad-8d9c-c8616db03d31",
-          "f1d26639-361e-49b0-afea-92a6b61fa530",
-          "f4b99e22-b5ac-4253-863e-514c1460545c",
-          "b7f2d2c8-6b0e-4914-8181-1e2b7ec1026e",
-          "d8734990-b3db-4a11-986e-534680a1ba55",
-          "8a4e048d-2573-464c-9c26-24bcde52d516",
-          "fc942fca-a643-4aa4-8b34-fafd049e9bd4",
-          "240bb59d-a031-49a1-a5ee-09a916c19f1d",
-          "fcf8d091-e25a-4e42-935a-80835e9c3124",
-          "9315d227-251c-42c5-82fe-b9c18372ef08",
-          "17acdbb1-a558-46e7-ac29-798f1a07eb88",
-          "ea3fbb95-2aff-4492-ae1b-e89b5c0d31e8",
-          "f54b467d-ab86-4d24-b242-9a8fcedf25e5"
+          "f1d26639-361e-49b0-afea-92a6b61fa530"
         ],
         "isRemovable": false,
         "filePath": "kit"
@@ -53,25 +39,6 @@
           }
         ]
       },
-      "58e372ed-5524-4695-a2e3-11f3d3a665b5": {
-        "id": "58e372ed-5524-4695-a2e3-11f3d3a665b5",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "1.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/1.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python2.7",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
       "e197ee0d-e5e0-483b-ac58-cf1bc823043a": {
         "id": "e197ee0d-e5e0-483b-ac58-cf1bc823043a",
         "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
@@ -82,44 +49,6 @@
         "isRemovable": true,
         "filePath": "kit/__init__.py",
         "code": ""
-      },
-      "1714dee7-6803-43fc-bd4f-a4bd92509a37": {
-        "id": "1714dee7-6803-43fc-bd4f-a4bd92509a37",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "2.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/2.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python3.6",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "0f6b4cc7-04b8-4fad-8d9c-c8616db03d31": {
-        "id": "0f6b4cc7-04b8-4fad-8d9c-c8616db03d31",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "3.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/3.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python2.7",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 448,
-          "layers": []
-        },
-        "triggers": []
       },
       "f1d26639-361e-49b0-afea-92a6b61fa530": {
         "id": "f1d26639-361e-49b0-afea-92a6b61fa530",
@@ -144,235 +73,12 @@
             "config": {}
           }
         ]
-      },
-      "f4b99e22-b5ac-4253-863e-514c1460545c": {
-        "id": "f4b99e22-b5ac-4253-863e-514c1460545c",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "5.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/5.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "b7f2d2c8-6b0e-4914-8181-1e2b7ec1026e": {
-        "id": "b7f2d2c8-6b0e-4914-8181-1e2b7ec1026e",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "6.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/6.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs10.x",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "d8734990-b3db-4a11-986e-534680a1ba55": {
-        "id": "d8734990-b3db-4a11-986e-534680a1ba55",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "7.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/7.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 1344,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "8a4e048d-2573-464c-9c26-24bcde52d516": {
-        "id": "8a4e048d-2573-464c-9c26-24bcde52d516",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "8.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/8.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 242,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "fc942fca-a643-4aa4-8b34-fafd049e9bd4": {
-        "id": "fc942fca-a643-4aa4-8b34-fafd049e9bd4",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "9.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/9.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "240bb59d-a031-49a1-a5ee-09a916c19f1d": {
-        "id": "240bb59d-a031-49a1-a5ee-09a916c19f1d",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "10.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/10.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 349,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "fcf8d091-e25a-4e42-935a-80835e9c3124": {
-        "id": "fcf8d091-e25a-4e42-935a-80835e9c3124",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "11.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/11.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python2.7",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "9315d227-251c-42c5-82fe-b9c18372ef08": {
-        "id": "9315d227-251c-42c5-82fe-b9c18372ef08",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "12.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/12.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "17acdbb1-a558-46e7-ac29-798f1a07eb88": {
-        "id": "17acdbb1-a558-46e7-ac29-798f1a07eb88",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "13.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/13.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "ea3fbb95-2aff-4492-ae1b-e89b5c0d31e8": {
-        "id": "ea3fbb95-2aff-4492-ae1b-e89b5c0d31e8",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "14.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/14.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "f54b467d-ab86-4d24-b242-9a8fcedf25e5": {
-        "id": "f54b467d-ab86-4d24-b242-9a8fcedf25e5",
-        "parent": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
-        "name": "15.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "kit/15.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
       }
     },
     "rootNode": "046435d5-6e7a-47ea-a0c2-8e69ab6311e1",
     "openFiles": [
       "a6802762-5bdc-442e-b375-875918909987",
-      "58e372ed-5524-4695-a2e3-11f3d3a665b5",
-      "1714dee7-6803-43fc-bd4f-a4bd92509a37",
-      "0f6b4cc7-04b8-4fad-8d9c-c8616db03d31",
-      "f1d26639-361e-49b0-afea-92a6b61fa530",
-      "f4b99e22-b5ac-4253-863e-514c1460545c",
-      "b7f2d2c8-6b0e-4914-8181-1e2b7ec1026e",
-      "d8734990-b3db-4a11-986e-534680a1ba55",
-      "8a4e048d-2573-464c-9c26-24bcde52d516",
-      "fc942fca-a643-4aa4-8b34-fafd049e9bd4",
-      "240bb59d-a031-49a1-a5ee-09a916c19f1d",
-      "fcf8d091-e25a-4e42-935a-80835e9c3124",
-      "9315d227-251c-42c5-82fe-b9c18372ef08",
-      "17acdbb1-a558-46e7-ac29-798f1a07eb88",
-      "ea3fbb95-2aff-4492-ae1b-e89b5c0d31e8",
-      "f54b467d-ab86-4d24-b242-9a8fcedf25e5"
+      "f1d26639-361e-49b0-afea-92a6b61fa530"
     ],
     "currentFileId": "f1d26639-361e-49b0-afea-92a6b61fa530",
     "resources": {
@@ -501,7 +207,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1574669062591
+    "lastSave": 1574669400493
   },
   "VCS_STATE": {
     "provider": "GitHub",
